@@ -10,3 +10,11 @@ while(cond_var<=num)
      cond_var++;
 }
 console.log("sum of 1 to 10 number="+sum)
+
+//Task 4:- Write a program to print numbers from 10 to 1 using a while loop
+let i=10
+while(i>=1)
+{
+    console.log(i)
+    i--
+}
