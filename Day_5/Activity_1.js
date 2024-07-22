@@ -10,3 +10,13 @@ function even_odd(num)
         console.log(`given number ${num} is an odd number`)
 }
 even_odd(467)
+
+//Task 2:- Write a function to find square of the number and reuturn the result 
+let input_num=4
+function square(num)
+{
+    let result=num*num
+    return result
+}
+let square_ip_num=square(input_num)
+console.log(square_ip_num)
